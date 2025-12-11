@@ -1,0 +1,4 @@
+serial_no,latitude,longitude,solar_panels_detected,num_panels
+1,35.5498,-116.8672,False,0
+2,27.1527,75.8195,False,0
+3,36.9619,-116.048,False,0
