@@ -1,0 +1,23 @@
+[
+    {
+        "serial_no": "1",
+        "latitude": 35.5498,
+        "longitude": -116.8672,
+        "solar_panels_detected": false,
+        "num_panels": 0
+    },
+    {
+        "serial_no": "2",
+        "latitude": 27.1527,
+        "longitude": 75.8195,
+        "solar_panels_detected": false,
+        "num_panels": 0
+    },
+    {
+        "serial_no": "3",
+        "latitude": 9.9327,
+        "longitude": 78.1141,
+        "solar_panels_detected": false,
+        "num_panels": 0
+    }
+]

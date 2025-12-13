@@ -1,6 +1,7 @@
 import os
-import sys
+# import sys
 import csv
+import json
 
 def ensure_directory(path):
     """Ensure a directory exists, removing any file conflicts."""
@@ -91,13 +92,24 @@ def run_pipeline(input_csv, output_folder):
                 import traceback
                 traceback.print_exc()
     
-    # Save results to CSV
+     # ============================
+    # SAVE RESULTS TO CSV
+    # ============================
     results_csv = os.path.join(output_folder, "detection_results.csv")
     with open(results_csv, 'w', newline='') as f:
         if results:
             writer = csv.DictWriter(f, fieldnames=results[0].keys())
             writer.writeheader()
             writer.writerows(results)
-            print(f"\n✓ Results saved to: {results_csv}")
-    
+
+    print(f"\n✓ CSV output saved to: {results_csv}")
+
+    # ============================
+    # SAVE RESULTS TO JSON (REQUIRED)
+    # ============================
+    results_json = os.path.join(output_folder, "detection_results.json")
+    with open(results_json, "w") as jf:
+        json.dump(results, jf, indent=4)
+
+    print(f"✓ JSON output saved to: {results_json}")
     print("\nPipeline finished!")
