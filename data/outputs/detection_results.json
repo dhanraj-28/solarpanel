@@ -1,23 +1,23 @@
 [
     {
         "serial_no": "1",
-        "latitude": 35.5498,
-        "longitude": -116.8672,
-        "solar_panels_detected": false,
-        "num_panels": 0
+        "latitude": 26.641009,
+        "longitude": 73.742267,
+        "solar_panels_detected": true,
+        "num_panels": 4
     },
     {
         "serial_no": "2",
-        "latitude": 27.1527,
-        "longitude": 75.8195,
-        "solar_panels_detected": false,
-        "num_panels": 0
+        "latitude": 26.975286,
+        "longitude": 75.779531,
+        "solar_panels_detected": true,
+        "num_panels": 31
     },
     {
         "serial_no": "3",
-        "latitude": 9.9327,
-        "longitude": 78.1141,
-        "solar_panels_detected": false,
-        "num_panels": 0
+        "latitude": 28.894667,
+        "longitude": 76.603944,
+        "solar_panels_detected": true,
+        "num_panels": 4
     }
 ]
